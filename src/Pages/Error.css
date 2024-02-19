@@ -1,0 +1,48 @@
+.error-title {
+    margin-bottom: 0;
+    text-align: center;
+    color: #FF6060;
+    font-weight: 700;
+    line-height: 410px;
+    font-size: 288px;
+    margin-top: 54px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.error-text {
+    text-align: center;
+    color: #FF6060;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-left: 57px;
+    margin-right: 57px;
+    line-height: 51px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.error-link{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 159px;
+    margin-top: 133px;
+    line-height: 25px;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 700px) {
+    .error-title {
+        font-size: 150px;
+    height: 320px;
+  }
+    
+    .error-text {
+        font-size: 17px;
+        line-height: 26px;
+        margin-bottom: 28%;
+      }
+    }

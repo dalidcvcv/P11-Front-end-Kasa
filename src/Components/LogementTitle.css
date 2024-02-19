@@ -1,0 +1,38 @@
+.logementTitle-text {
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 25.67px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.logementTitle-container{
+    width: 100%;
+    margin-left: 5%;
+}
+
+.logementTitle-location {
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.96px;   
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .logementTitle-text{
+        font-size: 25px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .logementTitle-text{
+        font-size: 18px;
+    }
+    .logementTitle-location{
+        font-size: 14px;
+    }
+}

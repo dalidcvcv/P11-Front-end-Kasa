@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Accueil from './Pages/Accueil.jsx';  
+import Header from './Components/Header.jsx';  
+import APropos from './Pages/APropos.jsx';
+import Footer from './Components/Footer.jsx';
+import Apartment from './Pages/Apartment.jsx';
+import Error from './Pages/Error.jsx';
 
-function App() {
+
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+          <Routes>
+            <Route path='/' element={<Accueil />} />
+            <Route path='/APropos' element={<APropos />} />
+            <Route path="/Apartment/:id" element={<Apartment />} />
+            <Route path="*" element={<Error />} />
+          </Routes>
+      <Footer />
     </div>
-  );
+  )
 }
-
-export default App;
+export default App

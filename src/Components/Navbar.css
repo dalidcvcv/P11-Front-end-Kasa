@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0 45px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    color: #FF6060;
+    gap: 55px;
+    margin: 30px 33px 50px 33px;
+  }
+ 
+  .header_logo {
+    margin-right: auto;
+  }

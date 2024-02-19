@@ -1,0 +1,28 @@
+.host-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.host-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF6060;
+    width: min-content;
+    font-family: "Montserrat", sans-serif;;
+}
+
+.host-img{
+    border-radius: 50%;
+    height: 60px;
+}
+
+@media only screen and (max-width: 700px) {
+    .host-text {
+        font-size: 13px;
+    }
+    .host-img {
+        height: 45px;
+      }
+}

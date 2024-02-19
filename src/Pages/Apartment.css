@@ -1,0 +1,63 @@
+.logement-container_stars_host {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    flex-direction: column-reverse;
+    gap: 20px;
+    margin-right: 5%;
+}
+
+.dropdown-logement {
+    width: 40%;
+    margin: 30px 5%;
+}
+
+.logement-container_dropDown {
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.logement-container_tags-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -69px;
+}
+
+.logement-container_dropDown>.drop-container>.drop-btn {
+    border-radius: 5px;
+}
+
+.logement-container {
+    margin: 35px 0 65px 0;
+    width: 100%;
+}
+
+.logement-container_dropDown>.drop-container>.drop-container_text>.drop-container_text-list {
+    padding: 23.02px 6.91px 1.3px 11.51px;
+    min-height: 137.57px;
+}
+
+@media only screen and (max-width: 700px) {
+    .logement-container_tags-container {
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .logement-container_stars_host {
+        margin-bottom: 10px;
+        gap: 20px;
+        margin-right: 5%;
+        flex-direction: row;
+        margin-bottom: 0;
+        align-items: center;
+    }
+    .logement-container_dropDown {
+        flex-direction: column;
+    }
+    .dropdown-logement {
+        margin: 34px 5% 0px 5%;
+        width: auto;
+    }
+}

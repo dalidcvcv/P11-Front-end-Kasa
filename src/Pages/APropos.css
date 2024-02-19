@@ -1,0 +1,41 @@
+.apropos__container {
+    margin: 25px 5%;
+}
+
+.apropos__container__banner {
+    background-image: url('/bannerAPropos.png');
+    ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 223px;
+    margin-bottom: 45px;
+    filter: brightness(0.7);
+}
+
+.dropdown-apropos {
+    margin: 34px 7% 30px 7%;
+    width: auto;
+}
+
+.dropdown-apropos .dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF6060;
+    color: #FFFFFF;
+    font-size: 23px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (max-width: 680px) {
+    .dropdown-apropos {
+        margin: 34px 0% 0px 0%;
+    }
+    .dropdown-apropos .dropdown{
+        font-size: 17px;
+    }
+}

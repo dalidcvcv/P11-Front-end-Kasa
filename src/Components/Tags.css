@@ -1,0 +1,36 @@
+.tag-text {
+    background-color: #FF6060;
+    list-style: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 29px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 14.26px;
+    white-space: nowrap;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tag-container {
+    display: flex;
+    margin-left: 5%;
+    align-items: end;
+}
+
+@media (max-width: 768px) {
+    .tag-text {
+        padding: 9px 14px;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 14px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .tag-text {
+        padding: 5px 10px;
+    }
+}

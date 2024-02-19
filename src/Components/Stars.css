@@ -1,0 +1,14 @@
+@media only screen and (max-width: 700px) {
+
+.stars-container {
+    margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars-container img{
+    width: 18px;
+}
+
+}
