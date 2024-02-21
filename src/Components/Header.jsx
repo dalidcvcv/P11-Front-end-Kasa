@@ -1,17 +1,18 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-
+import { Link, useLocation } from 'react-router-dom'
 import './Header.css'
 
-function Header () {
+function Header() {
+  const location = useLocation();
+
   return (
     <div className='navBar'>
       <img className='logo' src='/logo.png' alt='logo kasa' />
       <nav className='navBar__menu'>
-        <Link to="/">
+        <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
           Accueil
         </Link>
-        <Link to="/APropos">
+        <Link to="/APropos" className={location.pathname === '/APropos' ? 'active' : ''}>
           A Propos
         </Link>
       </nav>
